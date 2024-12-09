@@ -40,6 +40,7 @@ BlackBoxTestingOpenCartDemo_LaHieuPhong/
 - pip (Python package installer)
 - Selenium
 - WebDriver (ChromeDriver for Chrome, GeckoDriver from FireFox...)
+- OpenCart running locally at http://localhost/demo/index.php?route=common/home&language=en-gb
 
 ### Setup 
 
@@ -51,7 +52,7 @@ BlackBoxTestingOpenCartDemo_LaHieuPhong/
    
 2. **Install the required packages:**
 
-    Chạy lệnh sau để cài đặt tất cả các thư viện cần thiết từ requirements.txt
+    Run the following command to install all the required libraries from `requirements.txt`:
 
     ```bash
     pip install -r requirements.txt
@@ -59,8 +60,8 @@ BlackBoxTestingOpenCartDemo_LaHieuPhong/
 
 3. **Setting Up WebDriver**
 
-   - Chrome: You will need `ChromeDriver`.
-   - Firefox: You can download `GeckoDriver`.
+   - **Chrome**: You will need `ChromeDriver`.
+   - **Firefox**: You can download `GeckoDriver`.
 
    Once downloaded, ensure the appropriate WebDriver executable is placed in your system's PATH or specify its location in the `base_driver.py` file.
 
@@ -122,7 +123,7 @@ The test results will be generated in an `HTML` format and stored in the `report
 
 ## Page Object Model
 
-This project follows the **Page Object Model (POM)** design pattern for better maintainability and readability. The key page files in pages/ represent different parts of the website and abstract the interaction with those parts:
+This project follows the **Page Object Model (POM)** design pattern for better maintainability and readability. The key page files in `pages/` represent different parts of the website and abstract the interaction with those parts:
 
 - `add_to_cart_page.py`: Contains methods for interacting with the **Add to Cart** page elements.
 - `navigate_page.py`: Contains navigation-related actions.
@@ -136,7 +137,7 @@ After running the tests, an **HTML** report is generated (`report.html`). This r
 
 ## Utilities
 ### BaseDriver (`base_driver.py`)
-The BaseDriver class in the `utils/` directory is responsible for setting up and managing the WebDriver instance. It is used across all tests to initiate and close the browser. The class supports both **Chrome** and **Firefox** browsers.
+The BaseDriver class in the `utils/` directory is responsible for setting up and managing the **WebDriver** instance. It is used across all tests to initiate and close the browser. The class supports both **Chrome** and **Firefox** browsers.
 
 ## Contributing
 1. **Fork the repository.**
@@ -160,9 +161,9 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ## Acknowledgments
 - **Selenium WebDriver** for browser automation.
-- **pytest** for test management.
+- `pytest` for test management.
 - OpenCart for providing the demo site for testing.
 
 ## Contacts
 * Email: **hieuphong144@gmail.com**
-* Project Link: **https://github.com/lahieuphong/BlackBoxTestingOpenCartDemo_LaHieuPhong**
+* Project Link: https://github.com/lahieuphong/BlackBoxTestingOpenCartDemo_LaHieuPhong
