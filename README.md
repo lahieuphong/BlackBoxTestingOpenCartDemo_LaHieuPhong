@@ -1,9 +1,9 @@
 # BlackBox Testing OpenCart Demo 
 
-## Overview
+## Overview ✨
 This project is a collection of black box tests for the OpenCart demo application. The tests focus on evaluating the application's functionality from an end-user perspective, ensuring that features such as adding items to the cart, checkout, and form submissions work as expected. The testing is done using Selenium WebDriver and Python-based frameworks to simulate user interactions with the site. The project also includes additional tests for error handling, responsive design, and cross-browser compatibility.
 
-## Directory Structure
+## Directory Structure ✨
 
 ```plaintext
 BlackBoxTestingOpenCartDemo_LaHieuPhong/
@@ -33,7 +33,7 @@ BlackBoxTestingOpenCartDemo_LaHieuPhong/
 └── run_tests.py             
 ```
 
-## Installation and Running Tests
+## Installation and Running Tests ✨
 
 ### Prerequisites 
 - Python 3.x
@@ -85,13 +85,13 @@ The test results will be generated in an `HTML` format and stored in the `report
 - Ensure that the WebDriver executable (`chromedriver`, `firefoxdrive`...) is in your system's PATH or specify its location in your test setup.
 - You can customize the test configurations and add more test cases as needed.
 
-## Project Structure
+## Project Structure ✨
 
 - `tests/`: Contains all the test cases.
 - `pages/`: Contains page object models for different pages of the OpenCart demo website.
 - `utils/`: Contains utility files and configurations.
 
-## Test Details
+## Test Details ✨
 
 1. **Test Add to Cart (`test_add_to_cart.py`)**
 - Verifies that users can successfully add items to the shopping cart.
@@ -121,25 +121,25 @@ The test results will be generated in an `HTML` format and stored in the `report
 9. **Test Cross-Browser Search (`test_search_across_browsers.py`)**
 - Ensures the search functionality is consistent across different browsers.
 
-## Page Object Model
+## Page Object Model ✨
 
 This project follows the **Page Object Model (POM)** design pattern for better maintainability and readability. The key page files in `pages/` represent different parts of the website and abstract the interaction with those parts:
 
 - `add_to_cart_page.py`: Contains methods for interacting with the **Add to Cart** page elements.
 - `navigate_page.py`: Contains navigation-related actions.
 
-## Test Reporting
+## Test Reporting ✨
 After running the tests, an **HTML** report is generated (`report.html`). This report provides a detailed overview of the test results, including:
 
 - The number of tests **passed**/**failed**
 - A summary of each test case
 - Screenshots (if any failures occur)
 
-## Utilities
+## Utilities ✨
 ### BaseDriver (`base_driver.py`)
 The BaseDriver class in the `utils/` directory is responsible for setting up and managing the **WebDriver** instance. It is used across all tests to initiate and close the browser. The class supports both **Chrome** and **Firefox** browsers.
 
-## Contributing
+## Contributing ✨
 1. **Fork the repository.**
 2. **Create a new branch.**
     ```bash
@@ -156,16 +156,16 @@ The BaseDriver class in the `utils/` directory is responsible for setting up and
    ```
 6. **Create a new Pull Request.**
 
-## License
+## License ✨
 This project is licensed under the MIT License - see the `LICENSE` file for details.
 
-## Acknowledgments
+## Acknowledgments ✨
 - **Selenium WebDriver** for browser automation.
 - `pytest` for test management.
 - OpenCart for providing the demo site for testing.
 
-## Contacts
+## Contacts ✨
 * Email: **hieuphong144@gmail.com**
 * Project Link: https://github.com/lahieuphong/BlackBoxTestingOpenCartDemo_LaHieuPhong
 
-# -- THE END --
+### --- THE END ---
