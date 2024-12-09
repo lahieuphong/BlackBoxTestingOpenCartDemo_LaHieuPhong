@@ -173,6 +173,7 @@ The BaseDriver class in the `utils/` directory is responsible for setting up and
 - Test Report (**HTML**): [Test Report](report.html)
 
 ![test_report_2.png](imgs/test_report/test_report_2.png)
+
 ![test_report_3.png](imgs/test_report/test_report_3.png)
 
 ## License ✨
